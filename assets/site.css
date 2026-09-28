@@ -243,3 +243,4 @@ h3 { margin: 0; font: 700 clamp(24px, 2.8vw, 40px)/1.02 var(--head); letter-spac
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
 .game-embed { display: block; width: 100%; max-width: 540px; height: 780px; margin: 0 auto 28px; border: 1px solid var(--line-strong); background: var(--surface); }
+.division-logo { display: block; width: 120px; height: 120px; margin: 0 0 18px; border: 1px solid var(--line-strong); }
