@@ -46,14 +46,27 @@
       "description": "Freelancer Tracker is a 7-tab Excel workbook for freelancers: track income, budget off your lowest month and rank your debt payoff. $8, or pay what you want for the Lite version.",
       "image": "https://www.omniconsumerconcepts.com/assets/img/card-freelancer-tracker.png",
       "brand": {
-        "@id": "https://www.omniconsumerconcepts.com/#organization"
+        "@type": "Brand",
+        "name": "Omni Consumer Concepts"
       },
       "offers": {
         "@type": "Offer",
         "price": "8.00",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://ecommcircle.gumroad.com/l/freelancer-budget-spreadsheet-full"
+        "url": "https://ecommcircle.gumroad.com/l/freelancer-budget-spreadsheet-full",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          }
+        }
       }
     }
   ]
